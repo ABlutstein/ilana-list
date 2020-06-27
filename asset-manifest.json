@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ilana-list/static/css/main.77dc9891.chunk.css",
+    "main.js": "/ilana-list/static/js/main.80a1903a.chunk.js",
+    "main.js.map": "/ilana-list/static/js/main.80a1903a.chunk.js.map",
+    "runtime-main.js": "/ilana-list/static/js/runtime-main.6f75f18e.js",
+    "runtime-main.js.map": "/ilana-list/static/js/runtime-main.6f75f18e.js.map",
+    "static/js/2.39631657.chunk.js": "/ilana-list/static/js/2.39631657.chunk.js",
+    "static/js/2.39631657.chunk.js.map": "/ilana-list/static/js/2.39631657.chunk.js.map",
+    "index.html": "/ilana-list/index.html",
+    "precache-manifest.c14bb16f26d88377d9aecefabf925b5f.js": "/ilana-list/precache-manifest.c14bb16f26d88377d9aecefabf925b5f.js",
+    "service-worker.js": "/ilana-list/service-worker.js",
+    "static/css/main.77dc9891.chunk.css.map": "/ilana-list/static/css/main.77dc9891.chunk.css.map",
+    "static/js/2.39631657.chunk.js.LICENSE.txt": "/ilana-list/static/js/2.39631657.chunk.js.LICENSE.txt",
+    "static/media/forms.css": "/ilana-list/static/media/LondrinaSketchRegular.22ce3dc6.ttf",
+    "static/media/App.css": "/ilana-list/static/media/RainbowPic.43ee340b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f75f18e.js",
+    "static/js/2.39631657.chunk.js",
+    "static/css/main.77dc9891.chunk.css",
+    "static/js/main.80a1903a.chunk.js"
+  ]
+}
