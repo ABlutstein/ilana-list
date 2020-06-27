@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3af67e28f0d7f9fc7fe5a1f6599449f5",
+    "revision": "6ebfbe8fba53930c985a4e17c9e26599",
     "url": "/ilana-list/index.html"
   },
   {
-    "revision": "9fd5e9e319c18b48bb50",
-    "url": "/ilana-list/static/css/main.77dc9891.chunk.css"
+    "revision": "fefb60fe6ae4285eb3e3",
+    "url": "/ilana-list/static/css/main.4349542e.chunk.css"
   },
   {
     "revision": "9caffe3a37b218e82327",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ilana-list/static/js/2.39631657.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9fd5e9e319c18b48bb50",
+    "revision": "fefb60fe6ae4285eb3e3",
     "url": "/ilana-list/static/js/main.80a1903a.chunk.js"
   },
   {
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "22ce3dc6a2c3f87b39f5bc8789257c44",
     "url": "/ilana-list/static/media/LondrinaSketchRegular.22ce3dc6.ttf"
+  },
+  {
+    "revision": "b7d6b869c758b682a278921c4802f244",
+    "url": "/ilana-list/static/media/MyKids.b7d6b869.ttf"
   },
   {
     "revision": "43ee340b7f94cb2df2723af997f02aa3",
