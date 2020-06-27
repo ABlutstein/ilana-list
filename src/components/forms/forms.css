@@ -1,5 +1,5 @@
 * {
-  font-family: "ilanaFont2";
+  font-family: "ilanaFont3";
 }
 
 @font-face {
@@ -11,11 +11,14 @@
   font-family: "ilanaFont";
   src: url(../forms/fonts/LondrinaSketchRegular.ttf);
 }
+@font-face {
+  font-family: "ilanaFont3";
+  src: url(../forms/fonts/MyKids.ttf);
+}
 
 ::placeholder {
-  color: blue;
+  color: rgba(0, 0, 255, 0.1);
   font-size: 35px;
-  font-family: "ilanaFont2";
 }
 .sub-head {
   font-size: 90px;
@@ -101,9 +104,9 @@
 }
 
 .completeTab {
-  padding: 20px 12px;
+  padding: 10px 12px;
   color: white;
-  font-size: 50px;
+  font-size: 55px;
   background-color: #eef079;
   border-radius: 4px;
   border: 1px solid #4b8f29;
@@ -113,7 +116,7 @@
 }
 .actionsTab {
   color: white;
-  font-size: 50px;
+  font-size: 55px;
   background-color: #eef079;
   border-radius: 4px;
   border: 1px solid #4b8f29;
@@ -124,7 +127,7 @@
 
 .taskTab {
   color: white;
-  font-size: 50px;
+  font-size: 55px;
   background-color: #eef079;
   border-radius: 4px;
   border: 1px solid #4b8f29;
