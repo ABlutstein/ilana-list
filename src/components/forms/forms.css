@@ -1,0 +1,186 @@
+* {
+  font-family: "ilanaFont2";
+}
+
+@font-face {
+  font-family: "ilanaFont2";
+  src: url(../forms/fonts/ButterflyKidsRegular.ttf);
+}
+
+@font-face {
+  font-family: "ilanaFont";
+  src: url(../forms/fonts/LondrinaSketchRegular.ttf);
+}
+
+::placeholder {
+  color: blue;
+  font-size: 35px;
+  font-family: "ilanaFont2";
+}
+.sub-head {
+  font-size: 90px;
+  padding: 10px;
+  color: #3b0aee;
+  font-weight: bold;
+}
+
+.button1 {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+  background-color: #77b55a;
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+}
+
+.textEnter {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: rgba(0, 255, 0, 0.3);
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: blue;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+}
+
+.updateEnter {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background: rgba(0, 255, 0, 0.3);
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: blue;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+}
+
+.deleteButton {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background-color: #d11a0d;
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+}
+
+.editButton {
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  background-color: #e77a13;
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #5b8a3c;
+}
+
+.completeTab {
+  padding: 20px 12px;
+  color: white;
+  font-size: 50px;
+  background-color: #eef079;
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  border-radius: 4px;
+}
+.actionsTab {
+  color: white;
+  font-size: 50px;
+  background-color: #eef079;
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  border-radius: 4px;
+}
+
+.taskTab {
+  color: white;
+  font-size: 50px;
+  background-color: #eef079;
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  border-radius: 4px;
+}
+
+@media (max-width: 800px) {
+  .editButton,
+  .deleteButton {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .column1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .completeTab {
+    padding: 10px 8px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .actionsTab {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .taskTab {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .textEnter {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .updateEnter {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .button1 {
+    font-size: 37px;
+    margin: 0 auto;
+  }
+}
