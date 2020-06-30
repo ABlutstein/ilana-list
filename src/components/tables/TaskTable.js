@@ -1,7 +1,7 @@
 import React from "react";
 import "./tables.css";
 
-const TaskTable = props => {
+const TaskTable = ({ id, deleteTask, editRow, tasks, handleChange }) => {
   return (
     <table className="table-1">
       <thead align="center">
@@ -18,20 +18,18 @@ const TaskTable = props => {
         </tr>
       </thead>
       <tbody align="center">
-        {props.tasks.length > 0 ? (
-          props.tasks.map(task => (
+        {tasks.length > 0 ? (
+          tasks.map(task => (
             <tr key={task.id}>
               <td className="align-middle">
                 <input
+                  className="tickBox"
                   type="checkbox"
-                  style={{
-                    transform: "scale(3)",
-                    margin: "40px"
-                  }}
                   defaultChecked={task.completed}
-                  onClick={() => {
-                    props.handleChange(task.id);
-                  }}
+                  setEditing={false}
+                  data-task={id}
+                  data-updateTask={task}
+                  onClick={handleChange}
                 />
               </td>
               <td className="align-middle">
@@ -41,18 +39,16 @@ const TaskTable = props => {
                 <button
                   type="button"
                   className="editButton"
-                  style={{ margin: "5px" }}
-                  onClick={() => {
-                    props.editRow(task);
-                  }}
+                  data-task={id}
+                  onClick={editRow}
                 >
                   Edit
                 </button>
                 <button
                   type="button"
                   className="deleteButton"
-                  style={{ margin: "5px" }}
-                  onClick={() => props.deleteTask(task.id)}
+                  data-task={id}
+                  onClick={deleteTask}
                 >
                   Delete
                 </button>

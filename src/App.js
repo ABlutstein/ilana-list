@@ -34,28 +34,32 @@ const App = () => {
   const [currentTask, setCurrentTask] = useState(initialFormState);
 
   const addTask = task => {
-    task.id = tasks.length + 1;
+    task.id = tasks.length;
     setTasks([...tasks, task]);
   };
 
-  const deleteTask = id => {
+  const deleteTask = event => {
     setEditing(false);
-    setTasks(tasks.filter(task => task.id !== id));
+    setTasks(
+      tasks.filter(task => event.currentTarget.dataset.task !== task.id)
+    );
   };
 
-  const handleChange = taskId => {
-    const newTask = tasks.map(task => {
-      if (task.id === taskId) {
-        task.completed = !task.completed;
-      }
-      return task;
-    });
-    setTasks(newTask);
+  const handleChange = (task, event) => {
+    if (task => event.currentTarget.dataset.task === task.id) {
+      task.completed = !task.completed;
+    }
+    return task;
   };
 
-  const updateTask = (id, updatedTask) => {
-    setEditing(false);
-    setTasks(tasks.map(task => (task.id === id ? updatedTask : task)));
+  const updateTask = event => {
+    setTasks(
+      tasks.map(task =>
+        event.currenTarget.dataset.task.id
+          ? event.currentTarget.dataset.updatedTask
+          : task
+      )
+    );
   };
 
   const editRow = task => {
@@ -69,9 +73,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1 style={{ textAlign: "center", fontSize: "60px" }}>
-        What do I have to do today?
-      </h1>
+      <h1>What do I have to do today?</h1>
       <div>
         <div>
           {editing ? (

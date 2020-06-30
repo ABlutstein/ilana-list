@@ -9,3 +9,8 @@ html {
 .h2 {
   margin: 0 auto;
 }
+
+.container {
+  text-align: center;
+  font-size: 60px;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./forms.css";
 
-const AddTaskForm = props => {
+const AddTaskForm = ({ addTask }) => {
   const initialFormState = {
     id: null,
     name: "",
@@ -21,18 +21,13 @@ const AddTaskForm = props => {
     event.preventDefault();
     if (!task.name) return;
 
-    props.addTask(task);
+    addTask(task);
 
     setTask(initialFormState);
   };
 
   return (
-    <form
-      align="center"
-      style={{ padding: "60px" }}
-      className="form-inline"
-      onSubmit={handleSubmit}
-    >
+    <form className="form-inLine" align="center" onSubmit={handleSubmit}>
       <label className="sub-head"></label>
       <input
         type="text"
@@ -42,9 +37,7 @@ const AddTaskForm = props => {
         value={task.name}
         onChange={handleInputChange}
       />
-      <button className="button1" style={{ margin: "5px" }}>
-        Add new task
-      </button>
+      <button className="button1">Add new task</button>
     </form>
   );
 };
