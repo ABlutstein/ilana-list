@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ebfbe8fba53930c985a4e17c9e26599",
+    "revision": "44870ec5172f99e96c5dd5d27521d2f1",
     "url": "/ilana-list/index.html"
   },
   {
-    "revision": "fefb60fe6ae4285eb3e3",
-    "url": "/ilana-list/static/css/main.4349542e.chunk.css"
+    "revision": "2ad4c33ad300ac82fb2c",
+    "url": "/ilana-list/static/css/main.18abfefe.chunk.css"
   },
   {
     "revision": "9caffe3a37b218e82327",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ilana-list/static/js/2.39631657.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fefb60fe6ae4285eb3e3",
-    "url": "/ilana-list/static/js/main.80a1903a.chunk.js"
+    "revision": "2ad4c33ad300ac82fb2c",
+    "url": "/ilana-list/static/js/main.06467288.chunk.js"
   },
   {
     "revision": "e59f813a28ef76f1374c",
